@@ -1,6 +1,5 @@
 import pygame.display
 import pygame.locals
-import pygame.window
 import wordlist
 import random
 import pygame
