@@ -14,30 +14,10 @@ pygame.init()
 
 screen = pygame.display.set_mode((300,300))
 
-"""
-logo = pygame.image.load("logo.png").convert()
-screen.blit(logo,(0,0))
-pygame.transform.scale(screen,(300,300),screen)
-"""
+
 
 sprites = pygame.sprite.Group()
 
-"""class bar(pygame.sprite.Sprite):
-    def __init__(self,val,x,y):
-        super().__init__()
-        
-        self.val = val
-        self.x = x
-        self.y = y
-        
-        self.image = pygame.Surface([30,10])
-        self.rect = pygame.Rect(0,0,(100*val)/30,10)
-        self.image.fill((255,0,0))
-        self.rect.center = (self.x // 2, self.y // 2)
-        
-    
-    def update(self):
-        self.rect = pygame.Rect(0,0,(100*self.val)/30,10)"""
 
 i = 0
 
